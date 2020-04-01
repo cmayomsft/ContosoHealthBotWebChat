@@ -92,19 +92,6 @@ function initBotConversation() {
         backgroundColor: '#F8F8F8'
     };
 
-    // botConnection.postActivity({
-    //     type: "invoke", 
-    //     value: {
-    //         trigger: "covid19_core",
-    //         args: {
-    //             myVar1: "custom_arg_1",
-    //             myVar2: "custom_arg_2"
-    //             }
-    //         },
-    //     from: user,
-    //     name: "TriggerScenario"
-    //     }).subscribe(function (id){});
-
     const store = window.WebChat.createStore({}, function(store) { return function(next) { return function(action) {
         if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
             store.dispatch({
