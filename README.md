@@ -1,4 +1,4 @@
-# Health Bot Container
+# Contoso Health Bot Web Chat Container
 
 **Note:** In order to use this Web Chat with the Health Bot service, you will need to obtain your Web Chat secret by going to ["Integration/Secrets"](./secrets.png) on the navigation panel.
 Please refer to [Microsoft Health Bot](https://www.microsoft.com/en-us/research/project/health-bot/) for a private preview and details.
